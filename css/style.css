@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+#banner{
+    padding: 230px 0 230px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*=================================
+      HEADER PART START
+=================================*/
+.header_text{
+    width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header_text h1{
+    color: rgb(238, 188, 153);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 61px;
+    text-transform: uppercase;
+}
+
+.header_text p{
+    color: rgb(238, 188, 153);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 40px;
+    text-transform: capitalize;
+
+}
+.donatenow{
+    color: rgb(238, 188, 153);
+    padding: 12px 12px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color:rgb(199 159 132);
+    border-radius: 5px;
+    margin-top:40px;
+}
+/*=================================
+      HEADER PART END
+=================================*/
+/*=================================
+    DONATION TODAY PART START
+=================================*/
+#donation_place{
+    padding: 90px 0 90px 0;
+}
+
+.common_head{
+    width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+.common_head h2{
+    color: rgb(238, 188, 153);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+.common_head p{
+    color: rgb(238, 188, 153);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.donation_package{
+    margin-top: 50px;
+}
+.donation_package ul{
+    display: flex;
+    justify-content: center;
+}
+.donation_package ul li{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 26px;
+    background-color: #f1f1f1;
+    padding: 30px 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    transition: .3s;
+}
+.donation_package ul li:hover{
+    border-color: rgb(167 122 91);
+    color: rgb(238, 188, 153);
+    background-color: rgb(167 122 91);
+}
+
+.donate_ammount{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.donate_ammount h3{
+    color: rgb(238, 188, 153);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 26px;
+    border-bottom: 1px solid rgb(238, 188, 153);
+    padding-bottom: 10px;
+}
+/*=================================
+      DONATION TODAY PART END
+=================================*/
+/*=================================
+      DONATION PLAN  PART START
+=================================*/
+.donation_plans{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}    
+.donation_plan{
+    background-color: #f1f1f1;
+    width: 31%;
+    padding:40px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.donation_plan h2{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 29PX;
+    margin-top: 10px;
+    transition: all linear .3s;
+}
+.donation_plan p{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 15PX;
+    margin-top: 10px;
+    transition: all linear .3s;
+}
+.donation_plan i{
+    font-size: 40px;
+    color: gray;
+    transition: all linear .3s;
+}
+.donation_plan:hover h2{
+    color: rgb(238, 188, 153);
+}
+.donation_plan:hover p{
+    color: rgb(238, 188, 153);
+}
+.donation_plan:hover{
+    background-color: rgb(183 156 135);
+}
+.donation_plan:hover i{
+    color: rgb(238, 188, 153);
+}
+/*=================================
+     DONATION PLAN PART END
+=================================*/
+/*=================================
+          DONATED PART START
+=================================*/
+#donated{
+    padding-top: 90px;
+}
+.donated_part{
+    display: flex;
+}
+.our_donations{
+    padding: 20px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-right: 1px solid rgb(225 193 171);
+}
+
+.our_donations h3{
+    color: rgb(225 193 171);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.our_donations p{
+    color: rgb(165 145 131);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+/*=================================
+          DONATED PART END
+=================================*/
+/*=================================
+      OUR PARTNERS PART SATRT
+=================================*/
+#organization{
+    padding: 90px 0 0 0;
+}
+
+.organization_list ul{
+    display: flex;
+    margin-top: -30px;
+}
+.organization_list ul li{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.organization_list ul li img{
+    max-width: 100%;
+}
+/*=================================
+      OUR PARTNERS PART END
+=================================*/
+/*=================================
+           SIGN UP END
+=================================*/
+#our_updates{
+    padding: 90px 0 90px 0;
+}
+.sign_up_mail{
+    padding: 50px 40px;
+    background-color: rgb(209 193 181);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.sign_up_mail input{
+    width: 280px;
+    height: 45px;
+    line-height: 45px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 10px;
+    padding-left: 15px;
+    border-right: none;
+    border: 1px solid #e7e7e7;
+}
+
+.sign_up_mail button{
+    padding: 15px 35px 15px 35px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(167 122 91);
+    margin-left: -4px
+}
+.sign_up_mail button a{
+    color: #f1f1f1;
+} 
+/*=================================
+         SIGN UP PART START
+=================================*/
+/*=================================
+         FOOTER PART START
+=================================*/
+
+footer{
+    background-color: rgb(118 72 40);
+    padding: 80px 0 80px 0;
+}
+.footer_text{
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_text h2{
+    color: rgb(197 179 166);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+/*=================================
+         FOOTER PART END
+=================================*/
